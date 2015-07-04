@@ -3,25 +3,27 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
     <script src="js/scripts.js"></script>
 </head>
+
+
 <body>
-    <div>
-    <h2>search</h2>
+    <button onclick="toggle_element('search_div');">Search</button>
+    <div id='search_div'>
         <iframe label="duckducksearch"
                 src="https://duckduckgo.com/search.html?prefill=Search"
                 frameborder="0">
         </iframe>
     </div>
 
-    <div>
-    <h2>links</h2>
+    <button onclick="toggle_element('links_div');">Links</button>
+    <div id="links_div">
     <ul>
         <li><a href="https://github.com">github</a></li>
         <li><a href="https://lainchan.org">lainchan</a></li>
     </ul>
     </div>
 
-    <div>
-    <h2>feeds, needs to be added in later</h2>
+    <button onclick="toggle_element('feeds_div');">Feeds</button>
+    <div id="feeds_div">
     </div>
 
 </body>
